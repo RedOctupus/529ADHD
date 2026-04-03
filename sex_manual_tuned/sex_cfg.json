@@ -1,0 +1,17 @@
+{
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005,
+  "dropout": 0.4,
+  "batch_size": 16,
+  "max_epochs": 35,
+  "patience": 8,
+  "val_size": 0.15,
+  "n_splits": 5,
+  "channel_preset": "medium",
+  "use_batchnorm": true,
+  "use_scheduler": true,
+  "scheduler_factor": 0.5,
+  "scheduler_patience": 2,
+  "threshold_metric": "balanced_accuracy"
+}

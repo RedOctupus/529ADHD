@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "n_splits": 5,
+  "batch_size": 16,
+  "max_epochs": 20,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.3,
+  "patience": 5,
+  "val_size": 0.15,
+  "threshold": 0.5,
+  "optimizer": "Adam",
+  "brainnetcnn_channels": [32, 64, 128, 256],
+  "notes": "This is the original WiDS baseline configuration from the BrainNetCNN tutorial notebook."
+}
